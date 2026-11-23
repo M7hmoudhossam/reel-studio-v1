@@ -1,0 +1,313 @@
+{
+  "id": "9add4456-f44b-4a4f-8a20-3f8140c7d589",
+  "topic": "اختبار قالب cards — القلب والحركة",
+  "duration": 10,
+  "voiceMode": "tts",
+  "createdAt": "2026-11-23T18:16:43.113Z",
+  "updatedAt": "2026-11-23T18:16:44.326Z",
+  "stages": {
+    "script": {
+      "status": "done",
+      "auto": true,
+      "logs": [
+        "كتابة نص مدته 10 ثانية، حوالي 26 كلمة.",
+        "النص جاهز: 24 كلمة. راجع الدقة والمصادر قبل النشر."
+      ]
+    },
+    "voice": {
+      "status": "done",
+      "auto": true,
+      "logs": [
+        "طلب صوت ElevenLabs مع توقيت كل حرف.",
+        "الصوت جاهز (9.61 ث)."
+      ]
+    },
+    "timing": {
+      "status": "done",
+      "auto": true,
+      "logs": [
+        "تحويل توقيت الحروف إلى كلمات ومحاذاته بالنص.",
+        "تمت محاذاة 24 كلمة؛ 0 تحتاج مراجعة."
+      ]
+    },
+    "storyboard": {
+      "status": "review",
+      "auto": false,
+      "logs": [
+        "اقتراح المشاهد وتوزيع القوالب على الكلمات.",
+        "مراجعة ذاتية ثانية لتحسين اختيارات المشاهد.",
+        "5 مشاهد جاهزة.",
+        "بانتظار موافقتك للمتابعة."
+      ]
+    },
+    "render": {
+      "status": "idle",
+      "auto": false,
+      "logs": []
+    }
+  },
+  "script": {
+    "title": "ليه قلبك بيدق أسرع لما تجري؟",
+    "script": "قلبك بيسرّع لما تجري.\nعارف ليه؟\nعضلاتك بتطلب Oxygen أكتر، فيشتغل قلبك زي مضخة بتزوّد توصيل الدم.\nباختصار، النبض السريع بيساعد جسمك يواكب المجهود.",
+    "sources": "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse"
+  },
+  "voice": {
+    "mode": "tts",
+    "voiceId": "mock-ar",
+    "speed": 1,
+    "duration": 9.613061
+  },
+  "words": [
+    {
+      "index": 0,
+      "text": "قلبك",
+      "start": 0.16,
+      "end": 0.475,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 1,
+      "text": "بيسرّع",
+      "start": 0.475,
+      "end": 0.902,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 2,
+      "text": "لما",
+      "start": 0.902,
+      "end": 1.144,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 3,
+      "text": "تجري.",
+      "start": 1.144,
+      "end": 1.662,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 4,
+      "text": "عارف",
+      "start": 1.662,
+      "end": 2,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 5,
+      "text": "ليه؟",
+      "start": 2,
+      "end": 2.385,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 6,
+      "text": "عضلاتك",
+      "start": 2.385,
+      "end": 2.856,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 7,
+      "text": "بتطلب",
+      "start": 2.856,
+      "end": 3.164,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 8,
+      "text": "Oxygen",
+      "start": 3.164,
+      "end": 3.531,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 9,
+      "text": "أكتر،",
+      "start": 3.531,
+      "end": 3.888,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 10,
+      "text": "فيشتغل",
+      "start": 3.888,
+      "end": 4.265,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 11,
+      "text": "قلبك",
+      "start": 4.265,
+      "end": 4.591,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 12,
+      "text": "زي",
+      "start": 4.591,
+      "end": 4.791,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 13,
+      "text": "مضخة",
+      "start": 4.791,
+      "end": 5.156,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 14,
+      "text": "بتزوّد",
+      "start": 5.156,
+      "end": 5.506,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 15,
+      "text": "توصيل",
+      "start": 5.506,
+      "end": 5.901,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 16,
+      "text": "الدم.",
+      "start": 5.901,
+      "end": 6.403,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 17,
+      "text": "باختصار،",
+      "start": 6.403,
+      "end": 7.036,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 18,
+      "text": "النبض",
+      "start": 7.036,
+      "end": 7.381,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 19,
+      "text": "السريع",
+      "start": 7.381,
+      "end": 7.873,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 20,
+      "text": "بيساعد",
+      "start": 7.873,
+      "end": 8.297,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 21,
+      "text": "جسمك",
+      "start": 8.297,
+      "end": 8.677,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 22,
+      "text": "يواكب",
+      "start": 8.677,
+      "end": 8.97,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 23,
+      "text": "المجهود.",
+      "start": 8.97,
+      "end": 9.568,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    }
+  ],
+  "storyboard": {
+    "scenes": [
+      {
+        "type": "intro",
+        "at": 0,
+        "template": "cards",
+        "title": "القلب والحركة",
+        "subtitle": "اختبار بصري للقالب",
+        "icons": [
+          "heart",
+          "lungs",
+          "muscle",
+          "pulse"
+        ],
+        "items": [
+          "القلب",
+          "Oxygen",
+          "الدم",
+          "العضلات"
+        ],
+        "value": 65
+      }
+    ],
+    "accents": [
+      [
+        1,
+        "accent"
+      ],
+      [
+        8,
+        "blue"
+      ]
+    ],
+    "warnings": []
+  }
+}

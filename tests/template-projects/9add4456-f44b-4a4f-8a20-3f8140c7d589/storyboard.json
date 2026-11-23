@@ -1,0 +1,35 @@
+{
+  "scenes": [
+    {
+      "type": "intro",
+      "at": 0,
+      "template": "cards",
+      "title": "القلب والحركة",
+      "subtitle": "اختبار بصري للقالب",
+      "icons": [
+        "heart",
+        "lungs",
+        "muscle",
+        "pulse"
+      ],
+      "items": [
+        "القلب",
+        "Oxygen",
+        "الدم",
+        "العضلات"
+      ],
+      "value": 65
+    }
+  ],
+  "accents": [
+    [
+      1,
+      "accent"
+    ],
+    [
+      8,
+      "blue"
+    ]
+  ],
+  "warnings": []
+}

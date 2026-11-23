@@ -1,0 +1,22 @@
+{
+  "projectId": "d1fdd448-4f36-4729-ae5b-d704e8e600e7",
+  "stages": {
+    "script": "done",
+    "voice": "done",
+    "timing": "done",
+    "storyboard": "done",
+    "render": "done"
+  },
+  "duration": 10,
+  "frames": 300,
+  "width": 1080,
+  "height": 1920,
+  "pixelFormat": "yuv420p",
+  "lufs": -14.04,
+  "words": 24,
+  "weakWords": 0,
+  "sseProgressEvents": 11,
+  "ssePreviewEvents": 11,
+  "uploadedAudioProject": "5def71f2-b03f-4e3f-91b3-71a64292876c",
+  "cancellationProject": "d97d2f15-c6ce-43bd-aead-1544548ce5e7"
+}

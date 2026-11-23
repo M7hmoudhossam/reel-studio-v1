@@ -1,0 +1,173 @@
+[
+  {
+    "template": "body",
+    "projectId": "81950b53-1542-4827-ade2-1c7f6e11a4be",
+    "statuses": {
+      "script": "done",
+      "voice": "done",
+      "timing": "done",
+      "storyboard": "review",
+      "render": "idle"
+    },
+    "samples": [
+      0,
+      0.8,
+      4.2,
+      8.7
+    ],
+    "sheet": "tests/contact-sheets/body.jpg",
+    "weakWords": 0
+  },
+  {
+    "template": "zoom",
+    "projectId": "8429e8d4-4bf2-46b4-8c1e-9ab15d140684",
+    "statuses": {
+      "script": "done",
+      "voice": "done",
+      "timing": "done",
+      "storyboard": "review",
+      "render": "idle"
+    },
+    "samples": [
+      0,
+      0.8,
+      4.2,
+      8.7
+    ],
+    "sheet": "tests/contact-sheets/zoom.jpg",
+    "weakWords": 0
+  },
+  {
+    "template": "flow",
+    "projectId": "4ddca05a-ee31-4730-a72d-e3e1ba25a322",
+    "statuses": {
+      "script": "done",
+      "voice": "done",
+      "timing": "done",
+      "storyboard": "review",
+      "render": "idle"
+    },
+    "samples": [
+      0,
+      0.8,
+      4.2,
+      8.7
+    ],
+    "sheet": "tests/contact-sheets/flow.jpg",
+    "weakWords": 0
+  },
+  {
+    "template": "cycle",
+    "projectId": "65c3863c-bdd4-4fbd-b5f2-32953015f9a8",
+    "statuses": {
+      "script": "done",
+      "voice": "done",
+      "timing": "done",
+      "storyboard": "review",
+      "render": "idle"
+    },
+    "samples": [
+      0,
+      0.8,
+      4.2,
+      8.7
+    ],
+    "sheet": "tests/contact-sheets/cycle.jpg",
+    "weakWords": 0
+  },
+  {
+    "template": "timeline",
+    "projectId": "00521a54-40a7-4882-aa49-beaffbd4c52c",
+    "statuses": {
+      "script": "done",
+      "voice": "done",
+      "timing": "done",
+      "storyboard": "review",
+      "render": "idle"
+    },
+    "samples": [
+      0,
+      0.8,
+      4.2,
+      8.7
+    ],
+    "sheet": "tests/contact-sheets/timeline.jpg",
+    "weakWords": 0
+  },
+  {
+    "template": "chart",
+    "projectId": "f9783564-0d3f-4277-84c7-3f7b4849b89b",
+    "statuses": {
+      "script": "done",
+      "voice": "done",
+      "timing": "done",
+      "storyboard": "review",
+      "render": "idle"
+    },
+    "samples": [
+      0,
+      0.8,
+      4.2,
+      8.7
+    ],
+    "sheet": "tests/contact-sheets/chart.jpg",
+    "weakWords": 0
+  },
+  {
+    "template": "layers",
+    "projectId": "fd61faa7-e463-42dc-a7da-c13adfa87a1a",
+    "statuses": {
+      "script": "done",
+      "voice": "done",
+      "timing": "done",
+      "storyboard": "review",
+      "render": "idle"
+    },
+    "samples": [
+      0,
+      0.8,
+      4.2,
+      8.7
+    ],
+    "sheet": "tests/contact-sheets/layers.jpg",
+    "weakWords": 0
+  },
+  {
+    "template": "cards",
+    "projectId": "9add4456-f44b-4a4f-8a20-3f8140c7d589",
+    "statuses": {
+      "script": "done",
+      "voice": "done",
+      "timing": "done",
+      "storyboard": "review",
+      "render": "idle"
+    },
+    "samples": [
+      0,
+      0.8,
+      4.2,
+      8.7
+    ],
+    "sheet": "tests/contact-sheets/cards.jpg",
+    "weakWords": 0
+  },
+  {
+    "template": "meter",
+    "projectId": "1a314fbe-12ea-437a-882d-b56bce117ed4",
+    "statuses": {
+      "script": "done",
+      "voice": "done",
+      "timing": "done",
+      "storyboard": "review",
+      "render": "idle"
+    },
+    "samples": [
+      0,
+      0.8,
+      4.2,
+      8.7
+    ],
+    "sheet": "tests/contact-sheets/meter.jpg",
+    "weakWords": 0
+  }
+]

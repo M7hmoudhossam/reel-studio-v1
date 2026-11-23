@@ -1,0 +1,9 @@
+node_modules/
+.env
+data/settings.json
+data/projects/*
+!data/projects/.gitkeep
+*.log
+
+.setup-complete
+data/e2e/

@@ -1,0 +1,402 @@
+{
+  "id": "d1fdd448-4f36-4729-ae5b-d704e8e600e7",
+  "topic": "ليه القلب بيدق أسرع لما نجري؟",
+  "duration": 10,
+  "voiceMode": "tts",
+  "createdAt": "2026-11-23T18:15:55.141Z",
+  "updatedAt": "2026-11-23T18:16:17.561Z",
+  "stages": {
+    "script": {
+      "status": "done",
+      "auto": false,
+      "logs": [
+        "كتابة نص مدته 10 ثانية، حوالي 26 كلمة.",
+        "النص جاهز: 24 كلمة. راجع الدقة والمصادر قبل النشر.",
+        "بانتظار موافقتك للمتابعة.",
+        "تمت الموافقة."
+      ]
+    },
+    "voice": {
+      "status": "done",
+      "auto": true,
+      "logs": [
+        "طلب صوت ElevenLabs مع توقيت كل حرف.",
+        "الصوت جاهز (9.61 ث)."
+      ]
+    },
+    "timing": {
+      "status": "done",
+      "auto": true,
+      "logs": [
+        "تحويل توقيت الحروف إلى كلمات ومحاذاته بالنص.",
+        "تمت محاذاة 24 كلمة؛ 0 تحتاج مراجعة."
+      ]
+    },
+    "storyboard": {
+      "status": "done",
+      "auto": true,
+      "logs": [
+        "اقتراح المشاهد وتوزيع القوالب على الكلمات.",
+        "مراجعة ذاتية ثانية لتحسين اختيارات المشاهد.",
+        "5 مشاهد جاهزة."
+      ]
+    },
+    "render": {
+      "status": "done",
+      "auto": true,
+      "logs": [
+        "تسوية ديناميكية للوصول للمستوى المستهدف دون قصّ القمم.",
+        "المستوى المقاس بعد المزج: -14.0 LUFS (المستهدف −14).",
+        "بدء الرسم: 300 إطار، 30 إطار/ث، 1080×1920.",
+        "مزج الصوت والمؤثرات وضبط مستوى الصوت…",
+        "اكتمل الفيديو."
+      ]
+    }
+  },
+  "script": {
+    "title": "ليه قلبك بيدق أسرع لما تجري؟",
+    "script": "قلبك بيسرّع لما تجري.\nعارف ليه؟\nعضلاتك بتطلب Oxygen أكتر، فيشتغل قلبك زي مضخة بتزوّد توصيل الدم.\nباختصار، النبض السريع بيساعد جسمك يواكب المجهود.",
+    "sources": "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse"
+  },
+  "voice": {
+    "mode": "tts",
+    "voiceId": "mock-ar",
+    "speed": 1,
+    "duration": 9.613061
+  },
+  "words": [
+    {
+      "index": 0,
+      "text": "قلبك",
+      "start": 0.16,
+      "end": 0.475,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 1,
+      "text": "بيسرّع",
+      "start": 0.475,
+      "end": 0.902,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 2,
+      "text": "لما",
+      "start": 0.902,
+      "end": 1.144,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 3,
+      "text": "تجري.",
+      "start": 1.144,
+      "end": 1.662,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 4,
+      "text": "عارف",
+      "start": 1.662,
+      "end": 2,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 5,
+      "text": "ليه؟",
+      "start": 2,
+      "end": 2.385,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 6,
+      "text": "عضلاتك",
+      "start": 2.385,
+      "end": 2.856,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 7,
+      "text": "بتطلب",
+      "start": 2.856,
+      "end": 3.164,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 8,
+      "text": "Oxygen",
+      "start": 3.164,
+      "end": 3.531,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 9,
+      "text": "أكتر،",
+      "start": 3.531,
+      "end": 3.888,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 10,
+      "text": "فيشتغل",
+      "start": 3.888,
+      "end": 4.265,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 11,
+      "text": "قلبك",
+      "start": 4.265,
+      "end": 4.591,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 12,
+      "text": "زي",
+      "start": 4.591,
+      "end": 4.791,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 13,
+      "text": "مضخة",
+      "start": 4.791,
+      "end": 5.156,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 14,
+      "text": "بتزوّد",
+      "start": 5.156,
+      "end": 5.506,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 15,
+      "text": "توصيل",
+      "start": 5.506,
+      "end": 5.901,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 16,
+      "text": "الدم.",
+      "start": 5.901,
+      "end": 6.403,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 17,
+      "text": "باختصار،",
+      "start": 6.403,
+      "end": 7.036,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 18,
+      "text": "النبض",
+      "start": 7.036,
+      "end": 7.381,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 19,
+      "text": "السريع",
+      "start": 7.381,
+      "end": 7.873,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 20,
+      "text": "بيساعد",
+      "start": 7.873,
+      "end": 8.297,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 21,
+      "text": "جسمك",
+      "start": 8.297,
+      "end": 8.677,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 22,
+      "text": "يواكب",
+      "start": 8.677,
+      "end": 8.97,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    },
+    {
+      "index": 23,
+      "text": "المجهود.",
+      "start": 8.97,
+      "end": 9.568,
+      "match": 1,
+      "weak": false,
+      "estimated": false
+    }
+  ],
+  "storyboard": {
+    "scenes": [
+      {
+        "type": "intro",
+        "at": 0,
+        "template": "zoom",
+        "title": "نبض أسرع",
+        "subtitle": "قلبك وقت الحركة",
+        "icons": [
+          "heart",
+          "pulse"
+        ],
+        "items": [
+          "القلب",
+          "النبض"
+        ],
+        "value": null
+      },
+      {
+        "type": "question",
+        "at": 4,
+        "template": "body",
+        "title": "عارف ليه؟",
+        "subtitle": "القلب جزء من منظومة",
+        "icons": [
+          "heart"
+        ],
+        "items": [],
+        "value": null
+      },
+      {
+        "type": "process",
+        "at": 6,
+        "template": "flow",
+        "title": "طلب أعلى",
+        "subtitle": "العضلات تحتاج أكسجينًا أكثر",
+        "icons": [
+          "muscle",
+          "lungs",
+          "heart"
+        ],
+        "items": [
+          "عضلات",
+          "Oxygen",
+          "قلب"
+        ],
+        "value": null
+      },
+      {
+        "type": "concept",
+        "at": 10,
+        "template": "layers",
+        "title": "مضخة الجسم",
+        "subtitle": "الدم يحمل الأكسجين للعضلات",
+        "icons": [
+          "heart",
+          "drop",
+          "muscle"
+        ],
+        "items": [
+          "القلب",
+          "الدم",
+          "العضلات"
+        ],
+        "value": null
+      },
+      {
+        "type": "recap",
+        "at": 17,
+        "template": "cycle",
+        "title": "الخلاصة",
+        "subtitle": "استجابة طبيعية للمجهود",
+        "icons": [
+          "heart",
+          "pulse",
+          "running"
+        ],
+        "items": [
+          "نبض",
+          "حركة",
+          "دم"
+        ],
+        "value": null
+      }
+    ],
+    "accents": [
+      [
+        1,
+        "accent"
+      ],
+      [
+        4,
+        "underline"
+      ],
+      [
+        8,
+        "blue"
+      ],
+      [
+        13,
+        "accent"
+      ],
+      [
+        18,
+        "success"
+      ]
+    ],
+    "warnings": []
+  },
+  "render": {
+    "file": "video.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 10,
+    "lufs": -14.04
+  }
+}

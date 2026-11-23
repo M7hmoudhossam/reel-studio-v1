@@ -1,0 +1,109 @@
+{
+  "scenes": [
+    {
+      "type": "intro",
+      "at": 0,
+      "template": "zoom",
+      "title": "نبض أسرع",
+      "subtitle": "قلبك وقت الحركة",
+      "icons": [
+        "heart",
+        "pulse"
+      ],
+      "items": [
+        "القلب",
+        "النبض"
+      ],
+      "value": null
+    },
+    {
+      "type": "question",
+      "at": 4,
+      "template": "body",
+      "title": "عارف ليه؟",
+      "subtitle": "القلب جزء من منظومة",
+      "icons": [
+        "heart"
+      ],
+      "items": [],
+      "value": null
+    },
+    {
+      "type": "process",
+      "at": 6,
+      "template": "flow",
+      "title": "طلب أعلى",
+      "subtitle": "العضلات تحتاج أكسجينًا أكثر",
+      "icons": [
+        "muscle",
+        "lungs",
+        "heart"
+      ],
+      "items": [
+        "عضلات",
+        "Oxygen",
+        "قلب"
+      ],
+      "value": null
+    },
+    {
+      "type": "concept",
+      "at": 10,
+      "template": "layers",
+      "title": "مضخة الجسم",
+      "subtitle": "الدم يحمل الأكسجين للعضلات",
+      "icons": [
+        "heart",
+        "drop",
+        "muscle"
+      ],
+      "items": [
+        "القلب",
+        "الدم",
+        "العضلات"
+      ],
+      "value": null
+    },
+    {
+      "type": "recap",
+      "at": 17,
+      "template": "cycle",
+      "title": "الخلاصة",
+      "subtitle": "استجابة طبيعية للمجهود",
+      "icons": [
+        "heart",
+        "pulse",
+        "running"
+      ],
+      "items": [
+        "نبض",
+        "حركة",
+        "دم"
+      ],
+      "value": null
+    }
+  ],
+  "accents": [
+    [
+      1,
+      "accent"
+    ],
+    [
+      4,
+      "underline"
+    ],
+    [
+      8,
+      "blue"
+    ],
+    [
+      13,
+      "accent"
+    ],
+    [
+      18,
+      "success"
+    ]
+  ],
+  "warnings": []
+}

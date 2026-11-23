@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import os from 'node:os';import path from 'node:path';import {spawnSync} from 'node:child_process';import {pathToFileURL} from 'node:url';
+test('settings persist locally, env fallback works, secrets are masked and empty restores env',()=>{
+ const temp=fs.mkdtempSync(path.join(os.tmpdir(),'reel-settings-'));fs.mkdirSync(path.join(temp,'lib'));fs.copyFileSync(path.resolve('lib/config.mjs'),path.join(temp,'lib/config.mjs'));const mod=pathToFileURL(path.join(temp,'lib/config.mjs')).href;
+ fs.writeFileSync(path.join(temp,'.env'),'LLM_API_KEY=dotenv-secret-2468\nLLM_BASE_URL=http://127.0.0.1:31415/v1\n');
+ const code=`const m=await import(${JSON.stringify(mod)});let before=m.publicSettings();m.saveSettings({llmApiKey:'local-secret-1357'});let after=m.publicSettings();let disk=JSON.parse((await import('node:fs')).readFileSync(m.SETTINGS_FILE,'utf8'));m.saveSettings({llmApiKey:''});let cleared=m.publicSettings();console.log(JSON.stringify({before,after,disk,cleared}));`;
+ const env={...process.env};delete env.LLM_API_KEY;delete env.REEL_DATA_DIR;delete env.REEL_TEST_MODE;
+ const p=spawnSync(process.execPath,['--input-type=module','-e',code],{cwd:temp,env,encoding:'utf8'});assert.equal(p.status,0,p.stderr);const x=JSON.parse(p.stdout);assert.equal(x.before.llmApiKey,'••••2468');assert.equal(x.after.llmApiKey,'••••1357');assert.equal(x.disk.llmApiKey,'local-secret-1357');assert.equal(x.cleared.llmApiKey,'••••2468');assert.ok(!JSON.stringify(x.after).includes('local-secret-1357'));fs.rmSync(temp,{recursive:true,force:true});
+});
